@@ -1,0 +1,12 @@
+.card{
+    margin: 1rem 0;
+    border: 1px solid #bd93f9;
+}
+
+.card-body{
+    width: 100%;
+}
+
+div Button{
+    text-transform: capitalize !important;
+}

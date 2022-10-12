@@ -1,0 +1,21 @@
+.card{
+    display:flex;
+    align-items: center;
+    background: transparent;
+    padding: 4px;
+    margin-bottom: .5rem;
+}
+
+.card-title h6,p,a{
+    font-size: small;
+}
+
+
+.Toastify__toast-container{
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+.Toastify__toast-body div{
+    font-size: small;
+}

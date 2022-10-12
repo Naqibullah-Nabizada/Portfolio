@@ -1,0 +1,51 @@
+/* @font-face {
+    font-family: 'Sahel-bold';
+    src: url('../fonts/Sahel-Bold.eot');
+    src: url('../fonts/Sahel-Bold.ttf');
+    src: url('../fonts/Sahel-Bold.woff');
+} */
+
+body{
+    /* font-family: 'Sahel-bold'; */
+    margin: 0;
+    padding: 0;
+    background-color: #252a36;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+ul li{
+    list-style-type: none !important;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+/* input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder{
+    color: #f8f8f4;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    color: #f8f8f4 !important;
+    background-color: #44475a !important;
+    border-color: #bd93f9 !important;
+}
+
+.form-control{
+    border-color: #44475a !important;
+    color: #f8f8f4 !important;
+    border-color: #bd93f9 !important;
+} */
