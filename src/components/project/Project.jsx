@@ -14,7 +14,7 @@ const Project = () => {
 
               {
                 projects.map((project) => (
-                    <div className="col-12 col-md-3 card shadow-lg" key={project.id}>
+                    <div className="col-10 mx-auto col-md-3 card shadow-lg" key={project.id}>
                     <img src={project.image} alt={project.title} className="card-img p-1" />
                     <div className="card-body">
                         <h6 className="text-light">{project.title}</h6>

@@ -29,16 +29,17 @@ a{
     text-decoration: none !important;
 }
 
-/* input[type="text"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder,
-input[type="number"]::-webkit-input-placeholder{
-    color: #f8f8f4;
+input[type="number"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+    color: #f8f8f4 !important;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"],
-select{
+textarea{
     color: #f8f8f4 !important;
     background-color: #44475a !important;
     border-color: #bd93f9 !important;
@@ -48,4 +49,4 @@ select{
     border-color: #44475a !important;
     color: #f8f8f4 !important;
     border-color: #bd93f9 !important;
-} */
+}

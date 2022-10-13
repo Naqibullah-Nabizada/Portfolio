@@ -18,14 +18,14 @@ const Header = () => {
                     <img src={me} alt="Me" className='img-fluid rounded d-block mx-auto' />
                 </div>
                 <div className="left-header col-12 col-md-7">
-                    <p style={{ color: FOREGROUND, textAlign: 'justify' }} className='mt-3 mt-md-5 p-2'>Hello, my name is Naqibullah my family is Nabizada. I am from Afghanistan, and now I live in Kabul the capital of Afghanistan. I am student in Kabul University in computer science faculty IS department. I am a web fullstack developer. Now I also focus on Machine Learing, It is harder than web for me but it is possible and I work for it.</p>
+                    <p style={{ color: FOREGROUND, textAlign: 'justify' }} className='mt-3 mt-md-5 px-4 py-2'>Hello, my name is Naqibullah my family is Nabizada. I am from Afghanistan, and now I live in Kabul the capital of Afghanistan. I am student in Kabul University in computer science faculty IS department. I am a web fullstack developer. Now I also focus on Machine Learning, It is harder than web for me but it is possible and I work for it.</p>
                     <div className='mt-3 mt-md-5 d-flex justify-content-around justify-content-md-center'>
                         <a href={CV} download className='btn-sm text-dark mx-md-2' style={{ background: GREEN }}>Download CV</a>
                         
                         <a href='#contact' className='btn-sm text-dark mx-md-2' style={{ background: FOREGROUND }}>Let's Talk</a>
                     </div>
                     <div className='social-media mt-4 mt-md-5'>
-                        <p style={{ color: FOREGROUND }} className='text-center mx-md-5'>Follow me on socials media</p>
+                        <p style={{ color: FOREGROUND }} className='text-center mx-md-5'>Follow me on social media</p>
                         <div className='d-flex justify-content-center links'>
                             <a href="https://www.facebook.com/profile.php?id=100032771520136" className='fa fa-facebook-official' target={"_blank"}></a>
                             <a href="https://www.instagram.com/Naqibullah_Nabizada/" className='fa fa-instagram' target={"_blank"}></a>

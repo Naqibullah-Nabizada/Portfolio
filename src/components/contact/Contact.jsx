@@ -10,6 +10,8 @@ import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify";
 
 import './contact.css';
+import TextField from '@mui/material/TextField'
+
 
 const Contact = () => {
 
@@ -30,7 +32,7 @@ const Contact = () => {
 
     return (
         <section className="container my-3 my-md-5" id="contact">
-            <h4 className="text-center my-3 my-md-5" style={{ color: GREEN }}>Contact Me</h4>
+            <h4 className="text-center mt-5 mb-2 my-md-5" style={{ color: GREEN }}>Contact Me</h4>
             <div className="col-12 col-md-10 offset-md-1 d-md-flex justify-content-md-around">
                 <div className="col-10 offset-1 col-md-3 d-md-flex flex-md-column">
 
@@ -67,7 +69,7 @@ const Contact = () => {
                         <input type="text" name="name" placeholder="Your FullName" className="form-control mb-3" required />
                         <input type="email" name="email" placeholder="Your Email" className="form-control mb-3" required />
                         <textarea rows="10" name="message" placeholder="Your Message" className="form-control mb-3" required></textarea>
-                        <input type="submit" value="Send" className="btn btn-primary" />
+                        <input type="submit" value="Send" className="btn btn-primary d-block" />
                     </form>
                 </div>
             </div>

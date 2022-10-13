@@ -6,11 +6,11 @@ import frontends from './frontend';
 const Skill = () => {
     return (
         <section className="skill container" id='skills'>
-            <h4 className='text-warning text-center mt-4 mt-md-5'>My Skills</h4>
+            <h4 className='text-warning text-center mt-5'>My Skills</h4>
             <div className='skills d-md-flex justify-content-md-around'>
 
-                <div className='frontend col-12 col-md-5 rounded'>
-                    <p className='my-2 my-md-4 text-center text-white fw-bold'>Frontend Development</p>
+                <div className='frontend col-11 mx-auto col-md-5 rounded'>
+                    <p className='my-md-4 text-center text-white fw-bold'>Frontend Development</p>
 
                     {
                         frontends.map((frontend) => (
@@ -23,8 +23,8 @@ const Skill = () => {
                 </div>
 
 
-                <div className='backend col-12 col-md-5 rounded'>
-                    <p className='my-2 my-md-4 text-center text-white fw-bold'>Backend Development</p>
+                <div className='backend col-11 mx-auto col-md-5 rounded'>
+                    <p className='my-md-4 text-center text-white fw-bold'>Backend Development</p>
 
                     {
                         backends.map((backend) => (

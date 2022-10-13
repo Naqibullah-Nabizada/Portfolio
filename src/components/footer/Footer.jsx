@@ -12,7 +12,7 @@ const Footer = () => {
                 <Button variant="outlined" color="primary"><a href="#contact">Contact</a></Button>
             </div>
 
-            <div className="footer-socials-media col-md-2 offset-md-5 fs-2 my-3 mt-md-5 mb-md-3 d-flex justify-content-around">
+            <div className="footer-socials-media col-8 mx-auto col-md-3 offset-md-5 fs-1 my-3 mt-md-5 mb-md-3 d-flex justify-content-around">
                 <a href="https://www.facebook.com/profile.php?id=100032771520136" className="fa fa-facebook-square" target={"_blank"}></a>
                 <a href="https://www.instagram.com/Naqibullah_Nabizada/" className="fa fa-instagram" target={"_blank"}></a>
                 <a href="https://twitter.com/naqib_nabizada" className="fa fa-twitter-square" target={"_blank"}></a>
