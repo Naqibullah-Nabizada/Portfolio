@@ -29,7 +29,7 @@ a{
     text-decoration: none !important;
 }
 
-input[type="text"]::-webkit-input-placeholder,
+/* input[type="text"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder,
 input[type="number"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder{
@@ -49,4 +49,4 @@ textarea{
     border-color: #44475a !important;
     color: #f8f8f4 !important;
     border-color: #bd93f9 !important;
-}
+} */
