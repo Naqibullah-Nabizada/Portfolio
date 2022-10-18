@@ -20,8 +20,8 @@ const Project = () => {
                         <h6 className="text-light">{project.title}</h6>
                         <hr className="text-white fw-bold"/>
                         <div className="d-flex justify-content-around">
-                            <Button variant="outlined" color="secondary"><a href={project.github_link} style={{ color: FOREGROUND }} target={"_blank"}>Github</a></Button>
-                            <Button variant="outlined" color="primary"><a href={project.demo_link} style={{ color: GREEN }} target={"_blank"}>Live Demo</a></Button>
+                            <Button variant="outlined" color="secondary"><a href={project.github_link} style={{ color: FOREGROUND }} target={"_blank"} rel="noreferrer">Github</a></Button>
+                            <Button variant="outlined" color="primary"><a href={project.demo_link} style={{ color: GREEN }} target={"_blank"} rel="noreferrer">Live Demo</a></Button>
                         </div>
                     </div>
                 </div>

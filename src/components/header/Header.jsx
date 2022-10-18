@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import me from '../../assets/img/me(4).jpg';
 import { FOREGROUND, GREEN, PURPLE } from '../../helpers/colors';
 
@@ -27,11 +28,11 @@ const Header = () => {
                     <div className='social-media mt-4 mt-md-5'>
                         <p style={{ color: FOREGROUND }} className='text-center mx-md-5'>Follow me on social media</p>
                         <div className='d-flex justify-content-center links'>
-                            <a href="https://www.facebook.com/profile.php?id=100032771520136" className='fa fa-facebook-official' target={"_blank"}></a>
-                            <a href="https://www.instagram.com/Naqibullah_Nabizada/" className='fa fa-instagram' target={"_blank"}></a>
-                            <a href="https://twitter.com/naqib_nabizada" className='fa fa-twitter-square' target={"_blank"}></a>
-                            <a href="https://www.linkedin.com/in/naqibullah-nabizada-34a502243/" className='fa fa-linkedin-square' target={"_blank"}></a>
-                            <a href="https://github.com/Naqibullah-Nabizada" className='fa fa-github-square' target={"_blank"}></a>
+                            <a href="https://www.facebook.com/profile.php?id=100032771520136" className='fa fa-facebook-official' target={"_blank"} rel="noreferrer"></a>
+                            <a href="https://www.instagram.com/Naqibullah_Nabizada/" className='fa fa-instagram' target={"_blank"} rel="noreferrer"></a>
+                            <a href="https://twitter.com/naqib_nabizada" className='fa fa-twitter-square' target={"_blank"} rel="noreferrer"></a>
+                            <a href="https://www.linkedin.com/in/naqibullah-nabizada-34a502243/" className='fa fa-linkedin-square' target={"_blank"} rel="noreferrer"></a>
+                            <a href="https://github.com/Naqibullah-Nabizada" className='fa fa-github-square' target={"_blank"} rel="noreferrer"></a>
                         </div>
                     </div>
                 </div>

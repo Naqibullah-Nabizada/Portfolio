@@ -32,7 +32,8 @@ const Contact = () => {
         <section className="container my-3 my-md-5" id="contact">
             <h4 className="text-center mt-5 mb-2 my-md-5" style={{ color: GREEN }}>Contact Me</h4>
             <div className="col-12 col-md-10 offset-md-1 d-md-flex justify-content-md-around">
-                <div className="col-10 offset-1 col-md-3 d-md-flex flex-md-column">
+
+                <div className="col-10 offset-1 col-md-3 offset-md-0 d-md-flex flex-md-column">
 
                     <div className="card shadow-lg">
                         <MdOutlineEmail className="fs-2 text-white" />
@@ -48,7 +49,7 @@ const Contact = () => {
                         <div className="card-title text-center mt-2">
                             <h6 className="card-text text-white">Messenager</h6>
                             <p className="text-white">Naqibullah Nabizada</p>
-                            <a href="https://m.me/Naqibullah.Nabizada" target={"_blank"}>Send message</a>
+                            <a href="https://m.me/Naqibullah.Nabizada" target={"_blank"} rel="noreferrer">Send message</a>
                         </div>
                     </div>
 
@@ -57,7 +58,7 @@ const Contact = () => {
                         <div className="card-title text-center mt-2">
                             <h6 className="card-text text-white">Whatsapp</h6>
                             <p className="text-white">+93765066001</p>
-                            <a href="https://api.whatsapp.com/send?phone=+93765066001" target={"_blank"}>Send message</a>
+                            <a href="https://api.whatsapp.com/send?phone=+93765066001" target={"_blank"} rel="noreferrer">Send message</a>
                         </div>
                     </div>
                 </div>
