@@ -21,7 +21,7 @@ const Footer = () => {
                 <a href="https://github.com/Naqibullah-Nabizada" className="fa fa-github-square" target={"_blank"} rel="noreferrer"></a>
             </div>
 
-            <p className="text-white text-center my-3 p-3">&copy;copy right &copy;2022</p>
+            <p className="text-white text-center my-3 p-3">&copy;copy right 2022</p>
 
         </section>
     )
