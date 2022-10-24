@@ -17,13 +17,12 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        toast.success("Message send successfully.");
 
         emailjs.sendForm('service_iia5rkd', 'template_ikjuu0k', form.current, 'hTazGD9-DeFzSa5sa')
             .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
+                if (result.status === 200) {
+                    toast.success("Message send successfully.");
+                }
             });
         e.target.reset();
     };
