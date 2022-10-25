@@ -22,6 +22,8 @@ const Contact = () => {
             .then((result) => {
                 if (result.status === 200) {
                     toast.success("Message send successfully.");
+                }else{
+                    toast.error("Try again");
                 }
             });
         e.target.reset();
