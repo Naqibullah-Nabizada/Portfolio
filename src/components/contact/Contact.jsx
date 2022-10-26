@@ -20,11 +20,11 @@ const Contact = () => {
 
         emailjs.sendForm('service_iia5rkd', 'template_ikjuu0k', form.current, 'hTazGD9-DeFzSa5sa')
             .then((result) => {
-                if (result.status === 200) {
-                    toast.success("Message send successfully.");
-                }else{
-                    toast.error("Try again");
-                }
+                console.log(result.text);
+                console.log(result.status);
+            }, (error) => {
+                console.log(error.text);
+                console.log(error.status);
             });
         e.target.reset();
     };
