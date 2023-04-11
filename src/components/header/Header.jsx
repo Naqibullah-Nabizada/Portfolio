@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
+import Typewriter from 'typewriter-effect';
+
 import me from '../../assets/img/me(4).jpg';
 import { FOREGROUND, GREEN, PURPLE } from '../../helpers/colors';
 
@@ -10,9 +12,20 @@ const Header = () => {
     return (
         <section className="header container" id='home'>
             <div className='d-flex flex-column align-items-center mt-4 mb-3 mb-md-5'>
-                <h5 style={{ color: PURPLE}}>Hello I'm</h5>
+                <h5 style={{ color: PURPLE }}>Hello I'm</h5>
                 <h4 style={{ color: FOREGROUND }}>Naqibullah Nabizada</h4>
-                <h5 style={{ color: GREEN }}>Fullstack Developer</h5>
+                <h5 style={{ color: GREEN }}>
+                    <Typewriter
+                        options={{
+                            strings: ['Full Stack Developer', 'MERN Stack Developer'],
+                            changeDelay: 3,
+                            changeDeleteSpeed: 2,
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </h5>
+
             </div>
             <div className='d-md-flex justify-content-md-around'>
                 <div className="right-header col-12 col-md-4 bg-gradient">
@@ -22,7 +35,7 @@ const Header = () => {
                     <p style={{ color: FOREGROUND, textAlign: 'justify' }} className='mt-3 mt-md-5 px-4 py-2'>Hello, my name is Naqibullah my family is Nabizada. I am from Afghanistan, and now I live in Kabul the capital of Afghanistan. I am student in Kabul University in computer science faculty IS department. I am a web fullstack developer. Now I also focus on Machine Learning, It is harder than web for me but it is possible and I work for it.</p>
                     <div className='mt-3 mt-md-5 d-flex justify-content-around justify-content-md-center'>
                         <a href={CV} download className='btn-sm text-dark mx-md-2' style={{ background: GREEN }}>Download CV</a>
-                        
+
                         <a href='#contact' className='btn-sm text-dark mx-md-2' style={{ background: FOREGROUND }}>Let's Talk</a>
                     </div>
                     <div className='social-media mt-4 mt-md-5'>
