@@ -27,11 +27,11 @@ let frontend_skills = [
         'id': 5,
         'name': 'React',
         'color': 'bg-success',
-        'width': '85%'
+        'width': '90%'
     },
     {
         'id': 6,
-        'name': 'Jquery',
+        'name': 'Next',
         'color': 'bg-primary',
         'width': '80%'
     }

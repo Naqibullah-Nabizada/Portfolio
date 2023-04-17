@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
+import Button from '@mui/material/Button';
 import './footer.css';
-import Button from '@mui/material/Button'
 
 const Footer = () => {
     return (
@@ -21,7 +21,7 @@ const Footer = () => {
                 <a href="https://github.com/Naqibullah-Nabizada" className="fa fa-github-square" target={"_blank"} rel="noreferrer"></a>
             </div>
 
-            <p className="text-white text-center my-3 p-3">&copy;copyright 2022</p>
+            <p className="text-white text-center my-3 p-3">&copy;copyright { Date().slice(11,15) }</p>
 
         </section>
     )
