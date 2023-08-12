@@ -1,17 +1,17 @@
 let projects = [
     {
         id: 1,
-        'title': 'Online Programming Course',
-        'image': '/img/1.PNG',
-        'github_link': 'https://github.com/Naqibullah-Nabizada/Toplearn',
-        'demo_link': 'https://naqibullah-nabizada.github.io/Toplearn/'
+        'title': 'Ahmad Computer Store',
+        'image': '/img/1.png',
+        'github_link': 'https://ahmadcomputerstore.com',
+        'demo_link': 'https://ahmadcomputerstore.com'
     },
     {
         id: 2,
-        'title': 'TOLO News site',
-        'image': '/img/2.PNG',
-        'github_link': 'https://github.com/Naqibullah-Nabizada/ToloNews',
-        'demo_link': 'https://naqibullah-nabizada.github.io/ToloNews/'
+        'title': 'ID Card System',
+        'image': '/img/2.png',
+        'github_link': '',
+        'demo_link': ''
     },
     {
         id: 3,
