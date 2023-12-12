@@ -1,9 +1,8 @@
-import { FOREGROUND, GREEN, PURPLE } from "../../helpers/colors";
+import { PURPLE } from "../../helpers/colors";
 
 import projects from './data';
 
 import './project.css';
-import Button from '@mui/material/Button'
 
 
 const Project = () => {
@@ -18,11 +17,11 @@ const Project = () => {
                     <img src={project.image} alt={project.title} className="card-img p-1" />
                     <div className="card-body">
                         <h6 className="text-light">{project.title}</h6>
-                        <hr className="text-white fw-bold"/>
+                        {/* <hr className="text-white fw-bold"/>
                         <div className="d-flex justify-content-around">
                             <Button variant="outlined" color="secondary"><a href={project.github_link} style={{ color: FOREGROUND }} target={"_blank"} rel="noreferrer">Github</a></Button>
                             <Button variant="outlined" color="primary"><a href={project.demo_link} style={{ color: GREEN }} target={"_blank"} rel="noreferrer">Live Demo</a></Button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 ))

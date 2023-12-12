@@ -13,24 +13,35 @@ let backend_skills = [
     },
     {
         'id': 3,
-        'name': 'Node',
+        'name': 'Python',
         'color': 'bg-danger',
+        'width': '90%'
+    }, {
+        'id': 4,
+        'name': 'Java',
+        'color': 'bg-secondary',
         'width': '90%'
     },
     {
-        'id': 4,
+        'id': 5,
+        'name': 'Node',
+        'color': 'bg-primary',
+        'width': '90%'
+    },
+    {
+        'id': 6,
         'name': 'Express',
         'color': 'bg-success',
         'width': '90%'
     },
     {
-        'id': 5,
+        'id': 7,
         'name': 'MySQL',
         'color': 'bg-primary',
         'width': '85%'
     },
     {
-        'id': 6,
+        'id': 8,
         'name': 'Git & Github',
         'color': 'bg-danger',
         'width': '90%'

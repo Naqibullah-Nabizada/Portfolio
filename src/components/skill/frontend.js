@@ -19,18 +19,30 @@ let frontend_skills = [
     },
     {
         'id': 4,
+        'name': 'Tailwind CSS',
+        'color': 'bg-secondary',
+        'width': '85%'
+    },
+    {
+        'id': 5,
         'name': 'JavaScript',
         'color': 'bg-danger',
         'width': '90%'
     },
     {
-        'id': 5,
-        'name': 'React',
-        'color': 'bg-success',
-        'width': '90%'
+        'id': 6,
+        'name': 'Jquery',
+        'color': 'bg-primary',
+        'width': '80%'
     },
     {
-        'id': 6,
+        'id': 7,
+        'name': 'React',
+        'color': 'bg-success',
+        'width': '85%'
+    },
+    {
+        'id': 8,
         'name': 'Next',
         'color': 'bg-primary',
         'width': '80%'

@@ -10,3 +10,7 @@
 div Button{
     text-transform: capitalize !important;
 }
+
+.projects{
+    cursor: pointer;
+}
