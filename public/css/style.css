@@ -12,13 +12,13 @@ body{
     background-color: #252a36;
 }
 
-html{
+/* html{
     scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar{
     display: none;
-}
+} */
 
 ul li{
     list-style-type: none !important;
